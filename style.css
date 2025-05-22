@@ -1,0 +1,79 @@
+h1{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+h4{
+    font-size: 17px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 15px;
+}
+
+.container{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 50px;
+    box-shadow: 0 20px 20px -10px rgba(0, 0, 0, 0.25);
+}
+
+.questions{
+    margin-left: -100px;
+    width: 420px;
+}
+
+.questions .flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.resposta1, .resposta2{
+    border-bottom: 1px solid rgba(212, 212, 212, 1);
+}
+
+.resposta1 p, .resposta2 p{
+    margin-bottom: 20px;
+}
+
+.resposta1 p, .resposta2 p, .resposta3 p{
+    margin-top: 10px;
+}
+
+.img_person{
+    width: auto;
+    height: 400px;
+    position: relative;
+    left: -150px;
+}
+
+.seta, .seta_laranja{
+    width: 15px;
+    height: 8.86px;
+}
+
+.seta:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+
+.seta_laranja:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+
+.paragrafo-off{
+    display: none !important;
+}
+
+.paragrafo-on{
+    display: block !important;
+}
