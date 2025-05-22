@@ -36,3 +36,6 @@ seta_cinza3.addEventListener("click", function () {
         seta_cinza3.src = "img/seta_cinza.png";
     }}
 );
+
+
+// você poderia ter feito com o forEach que é um método que roda uma função para cada item de um array ou lista, deixando o code mais clean, pois ele adicionária o addEventListener para todos de uma só vez.
